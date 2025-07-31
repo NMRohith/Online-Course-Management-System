@@ -1,15 +1,15 @@
 # Online-Course-Management-System
 
 
-# 🎯 Online Course Management System - OOP Design Interview
+#  Online Course Management System - OOP Design Interview
 
-## 🧩 Objective
+## Objective
 
 Simulate a **System Design Interview** by modeling a real-world **Online Course Management System** using **Object-Oriented Programming (OOP)** concepts.
 
 ---
 
-## 🌐 Scenario Overview
+## Scenario Overview
 
 Design a platform supporting:
 
@@ -22,7 +22,7 @@ Design a platform supporting:
 
 ---
 
-## 📌 Task 1: UML Class Diagram
+##  Task 1: UML Class Diagram
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/9f992f71-c6e5-4026-b500-e04632461368" />
 
@@ -36,7 +36,7 @@ Design a platform supporting:
 
 ---
 
-## 🧾 Task 2: JavaScript Implementation (Core Classes)
+##  Task 2: JavaScript Implementation (Core Classes)
 
 ```
 class User {
@@ -148,23 +148,23 @@ class Grade {
 
 ```
 
-## 💡 Task 3: OOP Design Explanation
+## Task 3: OOP Design Explanation
 
-### 🔹 Abstraction
+###  1.Abstraction
 - Real-world entities like `User`, `Course`, `Assignment` are modeled as classes.
 
-### 🔹 Encapsulation
+###  2.Encapsulation
 - Private fields (e.g., `_id`, `_password`) are accessed using getter/setter methods.
 
-### 🔹 Inheritance
+###  3.Inheritance
 - `Student` and `Instructor` classes inherit from `User`.
 
-### 🔹 Polymorphism
+###  4.Polymorphism
 - `login()` method is overridden in both `Student` and `Instructor` to demonstrate role-based behavior.
 
 ---
 
-## 🧱 SOLID Principles Applied
+##  SOLID Principles Applied
 
 | Principle | Description |
 |----------|-------------|
